@@ -9,10 +9,12 @@ body {
 }
 
 .l-header {
-  height: 84vh;
+  min-height: 80vh;
   width: 100%;
   font-size: 64px;
-  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .l-header > h1 {
@@ -25,19 +27,19 @@ span {
   color: red;
 }
 
-p{
+p {
   margin: 0;
 }
 
 .l-nav {
-  height: 16vh;
+  min-height: 10vh;
   width: 100%;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   text-shadow: 0 0 16px #4169e1;
-  -webkit-box-reflect: below -120px linear-gradient(transparent, #0003);
+  -webkit-box-reflect: below -50px linear-gradient(transparent, #0003);
 }
 
 ul {
@@ -55,20 +57,24 @@ li {
 li:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: #4169e1;
 }
 
 .About {
-  height: 100vh;
-  background-color: black;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Portfolio {
-  height: 100vh;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Footer {
-  height: 10vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
