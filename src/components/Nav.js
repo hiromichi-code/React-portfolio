@@ -6,13 +6,22 @@ const Nav = () => {
     <div className="l-nav">
       <ul>
         <li>
-          <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>Home</Link>
+          <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/About" style={{ textDecoration: 'none', color: 'black' }}>About</Link>
+          <Link to="/About" style={{ textDecoration: "none", color: "black" }}>
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/Portfolio" style={{ textDecoration: 'none', color: 'black' }}>Portfolio</Link>
+          <Link
+            to="/Portfolio"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            Portfolio
+          </Link>
         </li>
       </ul>
     </div>
